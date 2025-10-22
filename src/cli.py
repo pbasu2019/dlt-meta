@@ -172,7 +172,7 @@ class DLTMeta:
                 target_dir = root[root.index(main_dir) + len(main_dir):len(root)]
                 uc_volume_path = f"{dst}/{base_dir_name}/{target_dir}/{filename}".replace("//", "/")
                 contents = open(os.path.join(root, filename), "rb")
-                self._ws.files.upload(file_path=uc_volume_path, contents=contents, overwrite=True)
+                self._ws.files.upload(file_path=uc_volume_path, content=contents, overwrite=True)
 
     def copy_to_dbfs(self, src, dst):
         dst = dst.replace('//', '/')
