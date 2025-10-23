@@ -715,7 +715,7 @@ class DLTMETARunner:
                 with open(os.path.join(root, file), "rb") as content:
                     self.ws.files.upload(
                         file_path=f"{runner_conf.uc_volume_path}{root}/{file}",
-                        contents=content,
+                        content=content,
                         overwrite=True,
                     )
 
@@ -727,7 +727,7 @@ class DLTMETARunner:
                     with open(os.path.join(root, file), "rb") as content:
                         self.ws.files.upload(
                             file_path=f"{runner_conf.uc_volume_path}{root}/{file}",
-                            contents=content,
+                            content=content,
                             overwrite=True,
                         )
         print(f"Integration test file upload to {uc_vol_full_path} complete!!!")
