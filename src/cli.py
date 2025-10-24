@@ -276,7 +276,7 @@ class DLTMeta:
         dltmeta_environments = [
             jobs.JobEnvironment(
                 environment_key="dl_meta_cli_env",
-                spec=compute.Environment(client="1",
+                spec=compute.Environment(client="4",
                                          dependencies=[f"dlt-meta=={self.version}"]
                                          )
             )

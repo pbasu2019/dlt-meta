@@ -1,0 +1,101 @@
+Op,dmsTimestamp,customer_id,first_name,last_name,email,country,signup_date,last_purchase_date,total_spent
+I,2025-03-01 08:10:50,C7561,Kathleen,Harris,kathleen.harris@example.com,Kyrgyz Republic,2024-09-09,2025-07-21,6527.52
+I,2025-09-07 02:04:54,C4989,Jeremiah,Miller,jeremiah.miller@example.com,Mauritania,2024-08-22,2025-09-07,6438.87
+I,2025-04-03 15:36:02,C6738,Sherri,Rush,sherri.rush@example.com,Yemen,2024-10-12,2025-09-16,2896.28
+I,2024-12-30 04:03:24,C5820,Nicole,Coleman,nicole.coleman@example.com,Sudan,2024-04-09,2025-07-19,6381.94
+I,2025-03-30 04:57:14,C3392,Timothy,Hall,timothy.hall@example.com,Italy,2024-05-31,2025-09-20,7308.32
+I,2025-02-27 12:17:47,C2682,Thomas,Tate,thomas.tate@example.com,Wallis and Futuna,2024-06-09,2025-06-17,7281.27
+I,2025-05-23 17:45:24,C7537,Jacob,Ortiz,jacob.ortiz@example.com,Gambia,2023-11-27,2024-10-21,9429.96
+I,2025-08-15 04:42:01,C7723,Gabriella,Jones,gabriella.jones@example.com,Belarus,2024-08-31,2024-12-09,5524.95
+I,2025-09-29 05:39:34,C6876,Michelle,Conley,michelle.conley@example.com,Korea,2024-03-26,2025-01-15,3539.43
+I,2025-10-09 20:33:57,C3730,Lori,Burgess,lori.burgess@example.com,Myanmar,2024-02-29,2025-01-01,3381.35
+I,2025-05-17 03:45:09,C8943,Robin,Silva,robin.silva@example.com,Antigua and Barbuda,2023-11-28,2025-05-30,8209.74
+I,2025-05-18 15:06:05,C7490,Bryan,Cook,bryan.cook@example.com,Burkina Faso,2024-08-23,2025-03-17,131.05
+I,2025-10-10 11:09:55,C4159,Joanna,Ramsey,joanna.ramsey@example.com,Gabon,2024-01-12,2025-04-10,5392.59
+I,2025-02-13 22:46:46,C2249,Maria,Anderson,maria.anderson@example.com,British Indian Ocean Territory (Chagos Archipelago),2022-11-25,2025-08-27,2463.17
+I,2025-05-21 09:53:18,C3017,Dawn,Rogers,dawn.rogers@example.com,Slovenia,2023-01-27,2025-02-15,8481.55
+I,2025-01-01 10:54:13,C7662,Joseph,Norris,joseph.norris@example.com,Costa Rica,2023-04-06,2025-03-02,3044.81
+I,2025-01-03 02:10:00,C2669,Mary,Wilkinson,mary.wilkinson@example.com,Azerbaijan,2024-03-24,2025-01-20,7635.17
+I,2025-10-17 14:22:55,C4873,Jeffrey,Ferrell,jeffrey.ferrell@example.com,Armenia,2023-04-16,2025-08-28,6062.38
+I,2025-07-28 19:29:30,C3598,Nicole,Adams,nicole.adams@example.com,France,2023-10-07,2024-12-19,6534.97
+I,2025-06-30 08:00:05,C3749,Jennifer,Kelley,jennifer.kelley@example.com,Oman,2023-04-01,2025-04-19,8093.62
+I,2025-01-01 09:10:05,C2807,Christopher,Jones,christopher.jones@example.com,Palestinian Territory,2024-09-01,2025-07-15,6091.63
+I,2024-11-02 02:06:55,C2056,Melanie,Petty,melanie.petty@example.com,Cote d'Ivoire,2023-02-20,2025-06-08,3601.8
+I,2025-10-02 13:37:59,C6815,Alexandra,Thomas,alexandra.thomas@example.com,French Polynesia,2024-06-24,2025-10-07,9259.22
+I,2025-08-11 21:43:22,C2823,Jesse,Williamson,jesse.williamson@example.com,Mozambique,2024-03-29,2024-11-09,2493.51
+I,2025-09-30 00:22:07,C9198,Denise,Martinez,denise.martinez@example.com,Saint Lucia,2024-07-31,2024-12-09,509.07
+I,2025-10-05 18:37:50,C8785,William,Hamilton,william.hamilton@example.com,Greece,2023-09-16,2025-05-01,662.95
+I,2025-07-12 19:29:45,C1528,John,Hughes,john.hughes@example.com,Nauru,2023-02-01,2025-03-12,1463.94
+I,2025-10-19 06:29:57,C8488,Stephanie,Chen,stephanie.chen@example.com,Russian Federation,2023-02-19,2025-03-12,8496.71
+I,2025-02-03 02:05:07,C7646,William,Cooper,william.cooper@example.com,Anguilla,2023-11-18,2025-08-28,1736.08
+I,2025-09-24 01:46:14,C4743,Jacob,Jackson,jacob.jackson@example.com,Guernsey,2024-01-08,2025-05-17,6088.92
+I,2025-09-26 17:43:10,C1898,Melissa,Ferguson,melissa.ferguson@example.com,Sao Tome and Principe,2024-04-19,2025-02-09,7373.55
+I,2025-03-25 08:29:57,C1194,Christopher,Cooke,christopher.cooke@example.com,Mali,2024-07-09,2025-01-21,4024.88
+I,2025-05-22 07:01:23,C8117,Jack,Arias,jack.arias@example.com,Colombia,2024-05-24,2025-02-23,1419.77
+I,2025-09-30 19:41:43,C4170,Joseph,Montgomery,joseph.montgomery@example.com,Madagascar,2023-02-06,2025-07-19,4059.27
+I,2024-11-18 12:59:56,C3177,Eduardo,Marquez,eduardo.marquez@example.com,Niue,2024-10-11,2025-04-02,8749.72
+I,2025-08-19 20:37:46,C5598,Michelle,Armstrong,michelle.armstrong@example.com,Barbados,2023-01-25,2025-09-06,1229.12
+I,2024-12-19 15:34:37,C4195,Patrick,Santiago,patrick.santiago@example.com,Paraguay,2022-12-11,2024-12-11,5918.55
+I,2025-01-23 15:30:13,C4323,Tina,Howard,tina.howard@example.com,Saudi Arabia,2024-07-24,2025-08-02,6093.5
+I,2025-07-28 01:36:24,C1777,Brooke,Russell,brooke.russell@example.com,Sweden,2023-05-05,2024-11-30,6565.79
+I,2025-07-04 14:53:42,C6314,Kevin,Blair,kevin.blair@example.com,Tanzania,2023-05-30,2025-01-29,7015.46
+I,2025-10-01 12:03:16,C8291,James,Payne,james.payne@example.com,Gibraltar,2023-05-20,2025-09-17,821.68
+I,2025-10-15 06:46:48,C6090,Chad,Allen,chad.allen@example.com,Congo,2024-02-05,2025-05-29,1139.22
+I,2025-05-05 20:31:12,C9355,Debra,Baldwin,debra.baldwin@example.com,Greece,2023-03-14,2024-11-09,3194.79
+I,2025-06-07 00:40:10,C3886,Jane,Miller,jane.miller@example.com,Martinique,2023-12-25,2025-09-19,1703.43
+I,2025-04-12 06:13:24,C5715,Katie,Hall,katie.hall@example.com,Guinea,2024-09-27,2025-07-22,6831.45
+I,2025-09-03 15:27:17,C8179,Timothy,Delgado,timothy.delgado@example.com,Bermuda,2022-11-21,2025-05-27,831.56
+I,2025-09-04 15:40:37,C2763,Joseph,Roberson,joseph.roberson@example.com,Turks and Caicos Islands,2022-12-28,2025-10-17,6804.4
+I,2025-04-30 11:01:07,C7895,Beth,Hawkins,beth.hawkins@example.com,Mayotte,2024-10-02,2025-03-04,766.68
+I,2025-02-02 13:36:15,C4607,Cynthia,Luna,cynthia.luna@example.com,Nicaragua,2024-04-22,2024-11-03,8177.58
+I,2025-10-17 07:53:45,C9879,Kristine,Becker,kristine.becker@example.com,Norfolk Island,2023-05-06,2024-11-28,7417.05
+I,2024-12-28 20:15:17,C8362,Margaret,Harrison,margaret.harrison@example.com,Tunisia,2024-07-13,2025-04-29,378.96
+I,2025-10-10 20:13:45,C8851,Carol,Day,carol.day@example.com,Comoros,2024-03-19,2025-08-26,8606.44
+I,2025-10-10 11:35:31,C5549,Jason,Wade,jason.wade@example.com,Gambia,2023-09-18,2025-06-23,5975.88
+I,2025-07-13 19:44:50,C3006,Dale,Sanchez,dale.sanchez@example.com,Armenia,2023-10-17,2025-07-10,6295.74
+I,2025-10-03 01:52:24,C7564,Scott,Pollard,scott.pollard@example.com,Tunisia,2024-02-15,2025-01-22,5952.17
+I,2025-01-07 03:11:50,C6691,Tiffany,Mcmillan,tiffany.mcmillan@example.com,Sri Lanka,2023-08-14,2024-12-05,6462.76
+I,2025-04-23 01:24:44,C5340,Jesse,Andersen,jesse.andersen@example.com,Latvia,2023-01-23,2025-08-30,7761.58
+I,2025-02-22 09:32:47,C5691,Michael,Blankenship,michael.blankenship@example.com,Switzerland,2024-08-28,2024-10-23,3801.56
+I,2024-12-31 16:17:19,C9403,Mary,Le,mary.le@example.com,Kiribati,2023-09-29,2024-12-09,5223.94
+I,2025-05-30 16:22:26,C6582,Tammy,Gonzalez,tammy.gonzalez@example.com,Trinidad and Tobago,2024-02-16,2025-03-02,5968.55
+I,2025-06-22 11:10:53,C8424,Whitney,Pace,whitney.pace@example.com,Belarus,2023-06-30,2025-03-01,2627.29
+I,2024-11-24 02:14:15,C3298,Jerry,Jenkins,jerry.jenkins@example.com,Botswana,2023-02-26,2025-06-14,4493.34
+I,2024-11-12 21:11:30,C4916,Mitchell,Rodriguez,mitchell.rodriguez@example.com,Trinidad and Tobago,2023-11-06,2025-01-29,2987.71
+I,2025-02-25 00:05:01,C4841,Christopher,Clark,christopher.clark@example.com,Yemen,2023-05-14,2024-10-25,9254.55
+I,2025-05-02 04:21:21,C1552,Crystal,Rivers,crystal.rivers@example.com,Hong Kong,2023-12-17,2025-04-15,9359.56
+I,2025-07-28 00:40:40,C1520,Daniel,Lane,daniel.lane@example.com,Azerbaijan,2023-12-23,2025-01-22,1753.01
+I,2025-04-02 09:15:25,C9304,Austin,Dawson,austin.dawson@example.com,Cocos (Keeling) Islands,2023-06-21,2025-04-21,7879.53
+I,2025-01-26 05:17:32,C5539,Cathy,Moore,cathy.moore@example.com,Mauritania,2024-05-21,2024-12-03,3213.59
+I,2025-04-12 12:22:37,C8700,Cindy,Watson,cindy.watson@example.com,Tanzania,2024-07-12,2024-11-08,5479.66
+I,2024-11-26 04:09:30,C3262,Paul,Jones,paul.jones@example.com,Seychelles,2024-04-27,2025-08-15,7051.56
+I,2025-04-22 06:13:22,C8164,Elaine,Mccullough,elaine.mccullough@example.com,Iran,2023-04-23,2025-09-10,350.88
+I,2025-02-21 18:14:59,C2091,John,Clark,john.clark@example.com,Spain,2023-10-18,2025-01-27,6659.69
+I,2025-04-10 13:19:26,C2829,Tiffany,Sharp,tiffany.sharp@example.com,Bolivia,2023-12-05,2025-08-15,3836.62
+I,2024-10-27 23:17:43,C9553,Timothy,Harris,timothy.harris@example.com,Angola,2024-08-01,2024-12-11,2836.62
+I,2025-05-26 22:58:53,C4683,David,Allen,david.allen@example.com,Peru,2023-03-24,2025-04-09,6980.45
+I,2025-09-26 00:31:27,C2831,Cindy,Cuevas,cindy.cuevas@example.com,Guinea,2023-06-15,2024-11-13,8288.75
+I,2025-09-02 01:58:41,C7222,Kimberly,Mitchell,kimberly.mitchell@example.com,Hungary,2023-05-29,2025-10-02,7390.3
+I,2025-01-04 02:28:20,C8912,Pamela,Coleman,pamela.coleman@example.com,Turks and Caicos Islands,2024-03-10,2025-10-03,3694.84
+I,2025-07-09 13:19:57,C1089,Michael,Brewer,michael.brewer@example.com,Papua New Guinea,2023-01-28,2025-07-29,760.66
+I,2024-12-17 06:12:07,C3966,Christopher,Caldwell,christopher.caldwell@example.com,Cape Verde,2024-08-22,2024-11-28,4245.17
+I,2025-06-18 08:25:12,C1653,Tammy,Cohen,tammy.cohen@example.com,Somalia,2024-05-28,2025-09-24,1972.07
+I,2025-02-14 07:50:44,C1572,Anna,Lopez,anna.lopez@example.com,Georgia,2024-01-11,2024-11-27,4994.12
+I,2025-05-04 18:52:06,C9187,Lisa,Bailey,lisa.bailey@example.com,Niue,2023-06-17,2025-09-16,5692.59
+I,2024-11-20 14:17:22,C6724,Christopher,French,christopher.french@example.com,Belize,2022-10-26,2025-02-15,7739.57
+I,2025-02-17 20:30:39,C1076,Seth,Young,seth.young@example.com,Guernsey,2023-12-28,2024-10-26,795.49
+I,2025-09-10 07:49:25,C6570,Robert,Reyes,robert.reyes@example.com,Sudan,2024-05-28,2025-10-16,1508.97
+I,2025-10-20 00:30:54,C9186,Megan,Contreras,megan.contreras@example.com,Norfolk Island,2023-02-17,2025-04-08,5048.95
+I,2024-11-12 08:25:42,C1362,Ricky,Davenport,ricky.davenport@example.com,Guinea,2024-08-14,2025-01-28,5932.68
+I,2025-07-13 03:18:25,C4907,Charles,Young,charles.young@example.com,Belgium,2023-01-05,2024-12-24,446.36
+I,2025-06-10 12:42:14,C7198,James,Ramirez,james.ramirez@example.com,Canada,2024-06-15,2025-10-05,3794.08
+I,2025-09-09 01:50:04,C1172,James,Rodriguez,james.rodriguez@example.com,Macao,2023-05-18,2025-03-22,9407.5
+I,2024-11-01 07:07:14,C9737,Anthony,Lopez,anthony.lopez@example.com,Argentina,2022-12-12,2024-10-26,1163.96
+I,2025-03-20 19:56:06,C4100,Sandy,Norton,sandy.norton@example.com,Oman,2024-03-08,2025-02-13,6989.46
+I,2025-06-05 15:45:17,C7672,Andrew,Figueroa,andrew.figueroa@example.com,Turks and Caicos Islands,2024-05-15,2025-10-12,8481.24
+I,2025-02-01 03:20:21,C6290,Michelle,Wilson,michelle.wilson@example.com,Andorra,2023-12-19,2025-06-02,8325.82
+I,2025-08-27 17:55:11,C5302,Jennifer,Rivera,jennifer.rivera@example.com,Vietnam,2023-07-29,2025-10-09,1881.66
+I,2025-03-14 00:38:41,C2515,Mckenzie,Mason,mckenzie.mason@example.com,Saint Martin,2022-10-24,2024-11-27,8579.23
+I,2025-06-17 16:30:48,C3144,Amanda,Adams,amanda.adams@example.com,Morocco,2023-01-30,2025-08-02,8697.59
+I,2025-05-19 13:13:05,C3772,Betty,Barrera,betty.barrera@example.com,Namibia,2024-06-26,2025-07-07,5102.59
+I,2025-07-17 13:39:22,C1898,Paul,Warren,paul.warren@example.com,Slovakia (Slovak Republic),2023-04-18,2025-06-21,366.33

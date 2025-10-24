@@ -104,7 +104,7 @@ class DLTMETATSilverFanoutDemo(DLTMETARunner):
             jobs.JobEnvironment(
                 environment_key="dl_meta_int_env",
                 spec=compute.Environment(
-                    client="1",
+                    client="4",
                     dependencies=[runner_conf.remote_whl_path],
                 ),
             )

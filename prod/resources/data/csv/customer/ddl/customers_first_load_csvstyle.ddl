@@ -1,0 +1,1 @@
+Op: string, dmsTimestamp: timestamp, customer_id: string, first_name: string, last_name: string, email: string, country: string, signup_date: date, last_purchase_date: date, total_spent: decimal(10,2)

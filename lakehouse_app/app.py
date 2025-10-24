@@ -225,7 +225,7 @@ def start_command():
         if 'PYTHONPATH' not in os.environ or not os.path.isdir(os.environ.get('PYTHONPATH', '')):
             commands = [
                 "pip install databricks-cli",
-                "git clone https://github.com/databrickslabs/dlt-meta.git",
+                "git clone https://github.com/pbasu2019/dlt-meta.git",
                 f"python -m venv {current_directory}/dlt-meta/.venv",
                 f"export HOME={current_directory}",
                 "cd dlt-meta",

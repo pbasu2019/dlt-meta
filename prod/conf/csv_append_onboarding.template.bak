@@ -1,0 +1,83 @@
+[
+   {
+      "data_flow_id": "100",
+      "data_flow_group": "A1",
+      "source_system": "csv",
+      "source_format": "cloudFiles",
+      "source_details": {
+         "source_database": "test_csv",
+         "source_table": "customers",
+         "source_path_prod": "{uc_volume_path}/prod/resources/data/csv/customer/initial",
+         "source_metadata": {
+            "include_autoloader_metadata_column": "True",
+            "autoloader_metadata_col_name": "source_metadata",
+            "select_metadata_cols": {
+               "input_file_name": "_metadata.file_name",
+               "input_file_path": "_metadata.file_path"
+            }
+         },
+         "source_schema_path": "{uc_volume_path}/prod/resources/data/csv/customer/ddl/customers_first_load_csvstyle.ddl"
+      },
+      "bronze_catalog_prod": "{uc_catalog_name}",
+      "bronze_database_prod": "{uc_catalog_name}.{bronze_schema}",
+      "bronze_table": "customers",
+      "bronze_table_comment": "customers bronze table",
+      "bronze_table_path_prod": "{uc_volume_path}/bronze/customers",
+      "bronze_reader_options": {
+         "cloudFiles.format": "csv",
+         "cloudFiles.inferColumnTypes": "true",
+         "cloudFiles.rescuedDataColumn": "_rescued_data",
+         "header": "true"
+      },
+      "bronze_table_properties": {
+      "pipelines.autoOptimize.managed": "true"
+      },
+      "bronze_table_cluster_by":["customer_id"],
+         "bronze_catalog_quarantine_demo": "{uc_catalog_name}",
+         "bronze_database_quarantine_demo": "{bronze_schema}",
+         "bronze_quarantine_table": "customers_quarantine",
+         "bronze_quarantine_table_properties": {
+               "pipelines.reset.allowed": "false"
+         },
+         "bronze_quarantine_table_cluster_by":["customer_id"],
+      "bronze_append_flows": [
+         {
+            "name": "customer_bronze_flow",
+            "create_streaming_table": false,
+            "source_format": "cloudFiles",
+            "source_details": {
+               "source_path_prod": "{uc_volume_path}/prod/resources/data/csv/customer/append",
+               "source_schema_path": "{uc_volume_path}/prod/resources/data/csv/customer/ddl/customers_first_load_csvstyle.ddl"
+            },
+            "reader_options": {
+               "cloudFiles.format": "csv",
+               "cloudFiles.inferColumnTypes": "true",
+               "cloudFiles.rescuedDataColumn": "_rescued_data"
+            },
+            "once": false
+         }
+      ],
+      "silver_catalog_prod": "{uc_catalog_name}",
+      "silver_database_prod": "{silver_schema}",
+      "silver_table": "customers",
+      "silver_table_comment": "customers silver table",
+      "silver_transformation_json_prod": "{uc_volume_path}/prod/conf/customers_silver_transformations.json",
+      "silver_table_properties": {
+            "pipelines.reset.allowed": "false",
+            "pipelines.autoOptimize.zOrderCols": "customer_id"         
+      },
+      "silver_append_flows": [
+         {
+            "name": "customers_silver_flow",
+            "create_streaming_table": false,
+            "source_format": "delta",
+            "source_details": {
+               "source_database": "{uc_catalog_name}.{bronze_schema}", 
+               "source_table": "customers"
+            },
+            "reader_options": {},
+            "once": false
+         }
+      ]
+   }
+]
